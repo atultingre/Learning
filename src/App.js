@@ -1,23 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+// import FetchProducts from "./components/FetchProducts";
+import ClassComponent from "./components/classcomponent/ClassComponent";
+import FunctionalComponent from "./components/functionalcomponent/FunctionalComponent";
+import DataGrid from "./components/InterviewQuestions/DataGrid";
+import InterviewQuestions from "./components/InterviewQuestions/InterviewQuestions";
+import ReactRerender from "./components/react-render/ReactRerender";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <ClassComponent /> */}
+      {/* <FunctionalComponent/> */}
+      <ReactRerender/>
+      {/* <InterviewQuestions/> */}
     </div>
   );
 }
