@@ -1,4 +1,5 @@
 import "./App.css";
+import CakeShop from "./cakeShop/CakeShop";
 // import FetchProducts from "./components/FetchProducts";
 import ClassComponent from "./components/classcomponent/ClassComponent";
 import FunctionalComponent from "./components/functionalcomponent/FunctionalComponent";
@@ -9,9 +10,10 @@ import ReactRerender from "./components/react-render/ReactRerender";
 function App() {
   return (
     <div className="App">
+      <CakeShop />
       {/* <ClassComponent /> */}
       {/* <FunctionalComponent/> */}
-      <ReactRerender/>
+      {/* <ReactRerender/> */}
       {/* <InterviewQuestions/> */}
     </div>
   );
